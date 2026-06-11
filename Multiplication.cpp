@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int num,sum=0;
+    int num,multi=0;
     cout<<"Enter number:";
     cin>>num;
-    for (int i = 1; i < num+1; i++)
+    for (int i = 1; i < 11; i++)
     {
-        sum=sum+i;
+        multi=num*i;
+        cout<<multi<<"\n";
     }
-    cout<<"Sum of Natural Number :"<<sum;
     
 }
